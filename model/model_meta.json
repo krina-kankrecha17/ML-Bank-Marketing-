@@ -1,0 +1,36 @@
+{
+  "feature_order": [
+    "Age",
+    "Job",
+    "Marital Status",
+    "Education",
+    "Credit Default",
+    "Housing Loan",
+    "Personal Loan",
+    "Contact Method",
+    "Contact Month",
+    "Contact Day",
+    "Campaign Contacts",
+    "Days Since Previous Contact",
+    "Previous Contacts",
+    "Previous Campaign Outcome",
+    "Employment Variation Rate",
+    "Consumer Price Index",
+    "Consumer Confidence Index",
+    "Euribor 3 Month Rate",
+    "Number of Employees"
+  ],
+  "target_encoding": {
+    "no": 0,
+    "yes": 1
+  },
+  "dropped_features": [
+    "Call Duration"
+  ],
+  "model": "Logistic Regression (class_weight=balanced, C=1, solver=liblinear)",
+  "test_roc_auc": 0.8013,
+  "test_f1": 0.465,
+  "test_recall": 0.6444,
+  "test_precision": 0.3637,
+  "test_accuracy": 0.833
+}
